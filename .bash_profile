@@ -37,5 +37,6 @@ export HOMEBREW_NO_INSECURE_REDIRECT=1
 # Load secrets
 source $HOME/Documents/config/secrets.sh
 
-# Load interactive configuration
-[[ -f $HOME/.bashrc ]] && source $HOME/.bashrc
+# Load additional configuration
+[[ -r /usr/local/etc/profile.d/bash_completion.sh ]] && source /usr/local/etc/profile.d/bash_completion.sh
+[[ -r $HOME/.bashrc ]] && source $HOME/.bashrc
