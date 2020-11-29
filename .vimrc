@@ -13,10 +13,11 @@ set smartindent
 " Using <Tab> deals in shiftwidth sizes.
 set smarttab
 
-" Global indentation settings to be overriden at the language level.
+" Global writing settings to be overriden at the language level.
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
+set textwidth=80
 
 " Handle backup, swap, and undo files.
 set nobackup
