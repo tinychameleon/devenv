@@ -23,6 +23,7 @@ PACKAGES=(
 	gnupg
 	google-chrome
 	grep
+	iterm2
 	jq
 	make
 	mercurial
