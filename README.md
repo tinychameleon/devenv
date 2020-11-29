@@ -9,4 +9,4 @@ This script does the following:
 - Installs Homebrew
 - Installs taps, packages, and casks
 - Links dotfiles into `$HOME`
-- Changes the user shell to `fish`
+- Changes the user shell to a recent version of bash
