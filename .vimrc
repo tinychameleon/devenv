@@ -1,8 +1,13 @@
 " Much of the typical configuration is present in sensible.vim, which is
 " loaded via the package manager.
 
+" Options {{{
+
 " Use the best colour scheme.
 colorscheme solarized
+
+" No audible bells.
+set visualbell
 
 " Perform case-sensitive searches when using upper-case characters.
 set smartcase
@@ -26,5 +31,24 @@ set noswapfile
 set undofile
 set undodir=$HOME/.vim/undo//
 
-" No audible bells.
-set visualbell
+" Don't abandon buffers when they are taken out of view
+set hidden
+
+" Set leader keys
+let mapleader = "\<Space>"
+
+" }}}
+" Functions {{{
+
+function! TrimTrailingWhitespace()
+	let l:view = winsaveview()
+	keepjumps keeppatterns %s/\s\+$//e
+	call winrestview(l:view)
+endfunction
+
+" }}}
+" Key Mappings {{{
+
+nnoremap <silent> <leader>fw :call TrimTrailingWhitespace()<cr>
+
+" }}}
