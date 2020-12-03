@@ -8,7 +8,6 @@ TAPS=(
 PACKAGES=(
 	aspell
 	bash
-	bash-completion
 	binutils
 	coreutils
 	curl
@@ -31,6 +30,7 @@ PACKAGES=(
 	pinentry-mac
 	tmux
 	vim
+	zsh
 )
 
 function has_binary() {
@@ -38,7 +38,7 @@ function has_binary() {
 }
 
 BREW=/usr/local/bin/brew
-SHELL_PATH=/usr/local/bin/bash
+SHELL_PATH=/usr/local/bin/zsh
 
 has_binary $BREW || \
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
