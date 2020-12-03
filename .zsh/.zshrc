@@ -4,7 +4,7 @@ alias ls='ls --color -AFh'
 
 # Prompt
 PROMPT='%F{green}%(4~.%-1~/…/%2~.%~)%f› '
-RPROMPT='%(?..❗️%F{red}%?%f)%(1j. 🔧%F{yellow}%j%f.)'
+RPROMPT='%(?..%(146?..❗️%F{red}%?%f))%(1j. 🔧%F{yellow}%j%f.)'
 
 # Configuration Variables
 HISTFILE=~/.zsh/histfile
