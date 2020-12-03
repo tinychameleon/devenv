@@ -1,4 +1,4 @@
-personal_ws-1.1 en 24 
+personal_ws-1.1 en 30 
 ADR
 ADRs
 Backend
@@ -8,10 +8,14 @@ Frontend
 Frontends
 JSON
 Javascript
+Kubernetes
+MacOS
 ORM
 Reddit
 SLA
 Tarulli
+VM
+VMs
 backend
 codebase
 codebases
@@ -20,6 +24,8 @@ discoverability
 frontend
 lts
 mindshare
+minikube
 ok
+performant
 screenful
 screenfuls
