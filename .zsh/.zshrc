@@ -3,7 +3,7 @@ alias e=$EDITOR
 alias ls='ls --color -AFh'
 
 # Prompt
-PROMPT='%F{green}%(3~.%-1~/…/%2~.%~)%f› '
+PROMPT='%F{green}%(4~.%-1~/…/%2~.%~)%f› '
 RPROMPT='%(?..❗️%F{red}%?%f)%(1j. 🔧%F{yellow}%j%f.)'
 
 # Configuration Variables
