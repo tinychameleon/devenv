@@ -2,3 +2,6 @@
 .vim/undo
 .zsh/.zcompdump
 .zsh/histfile
+
+.local/*
+!.local/bin/

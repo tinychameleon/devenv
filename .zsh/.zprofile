@@ -6,6 +6,7 @@ export GPG_TTY=$(tty)
 typeset -U path
 path=(
 	$HOME/go/bin
+	$HOME/.local/bin
 	/usr/local/opt/binutils/bin
 	/usr/local/opt/coreutils/libexec/gnubin
 	/usr/local/opt/curl/bin
