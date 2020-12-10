@@ -6,6 +6,9 @@ alias ls='ls --color -AFh'
 PROMPT='%F{green}%(4~.%-1~/…/%2~.%~)%f› '
 RPROMPT='%(?..%(146?..❗️%F{red}%?%f))%(1j. 🔧%F{yellow}%j%f.)'
 
+# Tool hooks
+eval "$(direnv hook zsh)"
+
 # Configuration Variables
 HISTFILE=~/.zsh/histfile
 HISTSIZE=10000
